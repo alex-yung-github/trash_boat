@@ -1,0 +1,4 @@
+<launch>
+   <node name="camera" pkg="trash_boat"
+   type="trashPIDController.py" output="screen"/>
+</launch>
