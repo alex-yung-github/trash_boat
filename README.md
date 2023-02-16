@@ -14,7 +14,7 @@ So far, when you run our package, it should take in video and identify objects o
 ## Creating our Package
 
 Create a folder (a workspace)
-cd that folder
+and cd that folder
 ```bash
 mkdir catkin_ws
 cd catkin_ws
