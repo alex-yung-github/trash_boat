@@ -1,8 +1,8 @@
 # trash_boat
 
-## Installation
+# Installation
 
-###Creating a Package
+### Creating a Package
 Create a folder (a workspace)
 cd that folder
 ```bash
