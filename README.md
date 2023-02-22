@@ -101,13 +101,14 @@ For more information about the camera node, visit: https://github.com/basler/pyl
 
 Third terminal: 
 ```bash
-rosrun trash_boat trashPIDController.py	
-```
-This prints out camera images and will run the YOLO v5 algorithm on the images (and print bounding boxes on the images).
-
-Fourth Term:  
-```bash
 roslaunch livox_ros_driver livox_lidar_rviz.launch bd_list:="0TFJBF001663J1"
 ```
 This starts the connection to the lidar and starts getting data from it.
+
+Fourth Term:  
+```bash
+roslaunch trash_boat program.launch	
+```
+This prints out camera images and will run the YOLO v5 algorithm on the images (and print bounding boxes on the images).
+
 
