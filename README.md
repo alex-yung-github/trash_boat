@@ -34,7 +34,7 @@ Note: Must include std_msgs and rospy in the command creation
 Open the trash_boat folder (or your folder name) and then clone this github repository: https://github.com/EatSumRice/trash_boat 
 ```bash
 cd trash_boat
-git clone git@github.com:EatSumRice/trash_boat.git
+git clone https://github.com/EatSumRice/trash_boat.git
 ```
 
 Extract all the items out of the trash_boat folder created within the trash_boat folder and then delete the old folder. (basically remove all the old items in the trash_boat folder and replace it with the new items cloned from the github repository)
