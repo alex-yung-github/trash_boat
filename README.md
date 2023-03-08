@@ -11,6 +11,10 @@ So far, when you run our package, it should take in video and identify objects o
 
 # Installation
 
+
+## Install ROS Noetic (or another version that uses Python 3)
+Link to Guide: http://wiki.ros.org/noetic/Installation/Ubuntu
+
 ## Creating our Package
 
 Create a folder (a workspace)
