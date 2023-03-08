@@ -44,9 +44,9 @@ git clone https://github.com/EatSumRice/trash_boat.git
 Extract all the items out of the trash_boat folder created within the trash_boat folder and then delete the old folder. (basically remove all the old items in the trash_boat folder and replace it with the new items cloned from the github repository)
 
 Then install all the dependencies in the requirements.txt folder.
-'''bash
+```bash
 pip install -r requirements.txt command
-'''
+```
 
 # Getting other Packages as Dependencies
 
