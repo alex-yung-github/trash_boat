@@ -45,14 +45,15 @@ Extract all the items out of the trash_boat folder created within the trash_boat
 
 Then install all the dependencies in the requirements.txt folder.
 ```bash
-pip install -r requirements.txt command
+pip install -r requirements.txt 
 ```
 
 # Getting other Packages as Dependencies
 
 ## Installing the Camera Package. Note: Might vary depending on your camera
-Follow this guide to install the required packages for the pylon-ros-camera and install it in the same src folder: https://github.com/basler/pylon-ros-camera 
+Follow this guide to install the required packages for the pylon-ros-camera and install it in the same src folder: http://wiki.ros.org/pylon_camera
 Please note that you may need to install pylon (the deb or tar package): https://www.baslerweb.com/en/products/basler-pylon-camera-software-suite/ 
+If you are running this on an NVIDIA Jetson and are having issues with building the package, this is probably the solution: https://github.com/basler/pylon-ros-camera/issues/108
 
 ## Installing the Lidar data retrieval package
 Install the livox data retriever using this guide: https://github.com/Livox-SDK/livox_ros_driver 
