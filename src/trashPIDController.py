@@ -76,18 +76,6 @@ class processor:
         self.the_connection.mav.send(msg1)
         print("sent value")
 
-
-    def getZMQ(self):
-        while True:
-            #  Wait for next request from client
-            message = self.socket.recv()
-            print("Received request: %s" % message)
-
-            #  Do some 'work'
-            time.sleep(1)
-
-            #  Send reply back to client
-            self.socket.send(b"World")
         
     def draw_bbox(self, image: np.ndarray, bbox_list: list) -> np.ndarray:
       for xmin, ymin, xmax, ymax, conf, _, label in bbox_list:
@@ -207,9 +195,3 @@ if __name__ == '__main__':
         rospy.spin() #make it so that ros will not shut down until user inputs Ctrl-C
     except rospy.ROSInterruptException:
         pass
-    
-
-
-
-   
-	
